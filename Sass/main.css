@@ -429,7 +429,7 @@ footer ul .fa-handshake-angle {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3rem;
   }
 }
 
@@ -450,7 +450,7 @@ footer ul .fa-handshake-angle {
 @media (min-width: 769px) {
   .container {
     align-items: flex-start;
-    width: 25rem;
+    width: 20rem;
   }
 }
 

@@ -16,6 +16,7 @@
     border: none;
     color: $white;
     background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+    
 }
 @mixin box-shadow {
     box-shadow: 0.5rem 0.5rem 0.5rem $grey;
