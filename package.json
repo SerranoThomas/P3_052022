@@ -1,0 +1,19 @@
+{
+  "name": "p3_thomas_serrano",
+  "version": "1.0.0",
+  "description": "site Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Sass/main.scss:./CSS/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerranoThomas/P3_052022.git"
+  },
+  "author": "Thomas serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerranoThomas/P3_052022/issues"
+  },
+  "homepage": "https://github.com/SerranoThomas/P3_052022#readme"
+}
