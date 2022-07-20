@@ -81,13 +81,13 @@
         @media (min-width: 1024px) {
         width: 95%;  
         padding-left: 1rem;
-        @include flex-row(flex-start, -i);
+        @include flex-row(center);
         gap: 2rem;
         
     }
     }
     &__carte{
-    @include flex-row(flex-start);
+    @include flex-row;
     padding-left: 0.8rem ;
     width: 95%;
     max-width:30rem;
@@ -106,17 +106,15 @@
             background-color: $lightgrey;
             border-radius: 1rem;
             z-index: 1;
-
-            &:hover{
-            background-color: $mauve;
-            }
             & i{
                 padding-right: 1.2rem;
             }
-            & i:hover{
-                    color: $color-primary
+            &:hover{
+            background-color: $mauve;
+                & i{
+                color: $color-primary
                 }
-
+            }
         }
     }
     }
