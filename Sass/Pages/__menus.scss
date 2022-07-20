@@ -30,10 +30,13 @@
 }
 }
 .contenu{
-    @media (min-width:769px) {
+    @media (min-width:992px) {
         @include flex-row (center,flex-start);
         flex-wrap: wrap;
         gap: 3rem;
+    }
+    @media (min-width:1440px){
+        gap:5rem;
     }
 }
 .container{
@@ -47,9 +50,12 @@
         padding-bottom: 0.3rem;
         border-bottom: 3px solid $color-tertiary;
     }
-    @media (min-width: 769px){
+@media (min-width: 992px){
         align-items:flex-start;
-        width: 20rem;
+        width: 18rem;
+    }
+@media (min-width:1440px) {
+        width: 25rem;
     }
         
     }
@@ -144,7 +150,7 @@
         @media (min-width:426px){
             width:70%;
         }
-        @media (min-width:769px) {
+        @media (min-width:992px) {
             width:100%
         }
 
