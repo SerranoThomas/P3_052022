@@ -68,6 +68,7 @@
     &__btn{
         padding: 0.7em;
         @include btn;
+        @include box-shadow;
     }
 }
 

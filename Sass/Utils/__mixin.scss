@@ -16,7 +16,10 @@
     border: none;
     color: $white;
     background: linear-gradient(to bottom right, $color-secondary, $color-primary);
-    
+    &:hover{
+        background: linear-gradient(to bottom right, lighten($color-secondary,5%),lighten($color-primary,10%));
+        box-shadow: 0.5rem 0.5rem 0.5rem darken($grey, 30%);
+    }
 }
 @mixin box-shadow {
     box-shadow: 0.5rem 0.5rem 0.5rem $grey;
