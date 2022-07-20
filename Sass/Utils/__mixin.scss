@@ -29,3 +29,7 @@
     border-radius: 1.2rem;
     box-shadow: 0.5rem 0.5rem 0.5rem $grey;
 }
+@mixin hidden-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

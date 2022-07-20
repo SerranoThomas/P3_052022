@@ -68,9 +68,8 @@
     margin-bottom: 1rem;
     @include border;
     @include flex-row (space-between);
+    @include hidden-text;
     background-color: $white;
-    text-overflow: ellipsis;
-    overflow: hidden;
     opacity:0;
     animation: menu-appear 1400ms ease-in-out both;
     &:nth-of-type(1){
@@ -91,19 +90,16 @@
 
     &__info{
         padding-left: 0.5rem;
-        text-overflow: ellipsis;
-        overflow: hidden;
+        @include hidden-text;
     }
             & h4{
             margin: 1rem 0 0 0;
-            text-overflow: ellipsis;
-            overflow: hidden;
+            @include hidden-text;
             white-space: nowrap;
         }
         &__txt{
             margin-top: 5px;
-            text-overflow: ellipsis;
-            overflow: hidden;
+            @include hidden-text;
             white-space: nowrap;
             font-size: small
         }
