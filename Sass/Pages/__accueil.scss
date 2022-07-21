@@ -191,27 +191,20 @@
     top: 1.5rem;
     transform: scale(1);
     transition-property: transform;
-    transition-duration: 400ms;
+    transition-duration: 600ms;
   }
   .fa-heart:hover {
     transform: scale(1.15);
   }
   
-  .couleur:hover {
-    opacity: 100%;
-    background: linear-gradient(0deg, #FF79DA, #9356DC);
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-.couleur:hover
-{
-    opacity: 100%;
-    background: linear-gradient(0deg,$color-secondary,$color-primary);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    font-weight: bold;
-}
-  }
+    .couleur:hover
+    {
+        opacity: 100%;
+        background: linear-gradient(0deg,$color-secondary,$color-primary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        font-weight: bold;
+    }
+  
