@@ -16,6 +16,8 @@
 {
     opacity: 100%;
     background: linear-gradient(0deg,$color-secondary,$color-primary);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
